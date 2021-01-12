@@ -6,13 +6,14 @@ Created on Mon Dec 28 19:44:52 2020
 @author: pranatagrawal
 """
 
-path =  "/Users/pranatagrawal/Desktop/Lucknow_Marbles/Accounts_App/"
+
 
 import tkinter as tk
 from tkinter import ttk
 from pyexcel_ods import get_data, save_data
 import os
 
+path = os.getcwd() + "/"
 class Account:
     def __init__(self, account_data, file_directory, name_of_account, file_name):
 
