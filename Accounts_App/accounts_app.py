@@ -17,14 +17,15 @@ Created on Thu Aug  6 01:38:20 2020
 @author: pranatagrawal
 """
 
-path = os.getcwd()
 
 
 import tkinter as tk
 from tkinter import ttk
 from Accounts_App import Account, HelloWorld
 from pyexcel_ods import get_data
+import os
 
+path = os.getcwd()
 
 def main():
     list_of_accounts = []
